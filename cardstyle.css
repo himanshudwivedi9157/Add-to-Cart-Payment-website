@@ -1,0 +1,73 @@
+body{
+    background-image: url('img/in-visa-gold-card-498x280.webp'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#main>h1{
+    padding: 30px;
+    color: #45a049;
+}
+#form{
+justify-content: center;
+    width: 30%;
+    border: 1px solid lightblue;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+input[type=text], input[type=number],input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+  
+#nav{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+  
+}
+#nav img{
+    width: 50px;
+}
+
+#label{
+    color: white;
+    font-weight: bold;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}

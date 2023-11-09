@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cardstyle.css">
+</head>
+<body>
+    <div id="nav">
+        <a href="mens.html">men's</a>
+        <a href="womens.html">women's</a>
+        <a href="cart.html"><img src="img/shopping-cart-icons-design-in-blue-circle-png.webp" alt="">
+            <span id="count">0</span>
+        </a>
+    </div>
+    <div id="main">
+        <h1>Payment here -></h1>
+        <form action="" id="form">
+            <label for="card_type">Select Card Type:</label><br>
+            <select id="card_type">
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="amex">American Express</option>
+                <option value="discover">Discover</option>
+            </select><br>
+            <label for="card_name" id="label">Enter Cardholder Name:</label><br>
+            <input type="text" id="card_name">
+            <label for="card_number" id="label">Enter card_number:</label><br>
+            <input type="number" id="card_number" /><br>
+            <label for="card_cvv" id="label">Enter CVV:</label><br>
+            <input type="number" id="card_cvv"/><br>
+            <label for="card_date" id="label">Enter Date:</label><br>
+            <input type="date" id="card_date"/><br>
+            <input type="submit" value="Make Payment">
+        </form>
+    </div>
+
+    <script src="payment.js">
+  
+    </script>
+</body>
+</html>

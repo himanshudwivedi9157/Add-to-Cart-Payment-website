@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#main{
+    /* border: 2px solid red; */
+    display: grid;
+    width: 97%;
+    margin: auto;
+    height: auto;
+    grid-template-columns: repeat(4,1Fr);
+    grid-template-rows: repeat(2,1Fr);
+    gap: 2px;
+    
+}
+#main>div{
+    /* border: 2px solid green; */
+   height: 100%;
+   text-align: center;
+}
+#main>div>img{
+    width: 100%;
+}
+
+#main>div>button{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+   }
+
+#main>div>button:hover{
+    background-color: #0056b3;
+    color: #fff;
+}
+
+#nav{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+#nav a{
+    text-decoration: none;
+    text-align: center;
+}
+#nav img{
+    width: 50px;
+}
+
+#nav>:hover{
+    background-color: #0056b3;
+    color: #fff; 
+}
+
+#product{
+  
+    width: 80%;
+    /* border: 2px solid red; */
+}
+#product>div{
+    display: flex;
+    
+   
+}
+
+#nav span{
+    background-color: #FF0000; /* Set the background color for the count */
+    color: #FFFFFF; /* Set the text color for the count */
+    border-radius: 50%; /* Make it a circle */
+    padding: 5px 10px; /* Adjust the padding as needed */
+    font-size: 16px; 
+    
+}
+
+
+#screen{
+    display: flex;
+    justify-content: space-around;
+  height: auto;
+}
+
+#cart-container{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     justify-content: space-between;
+    
+    /* border: 2px solid green; */
+    width: auto;
+   
+}
+
+#price-item{
+/* background-color: #FF0000; */
+/* border: 2px solid black; */
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+padding: 20px;
+}
+
+#total{
+    font-weight: bold;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+#price-item a{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    text-decoration: none;
+}

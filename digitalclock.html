@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>digital-clock</title>
+    <style>
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-size: 200px;
+        }
+
+        .main>div {
+            background-color: aliceblue;
+            padding: 50px;
+            margin: 20px;
+            border-radius: 15px;
+        }
+
+        span {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        @media screen and (max-width: 426px) and (min-width: 220px) {
+            .main {
+                font-size: 10px;
+            }
+
+            .main>div {
+                padding: 10px;
+                margin: 5px;
+                border-radius: 5px;
+            }
+
+            span {
+
+                font-size: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <div>TIME</div>
+        <div id="hours"></div><span>:</span>
+        <div id="minutes"></div><span>:</span>
+        <div id="seconds"></div>
+    </div>
+</body>
+<script src="digitalclock.js"></script>
+
+</html>
